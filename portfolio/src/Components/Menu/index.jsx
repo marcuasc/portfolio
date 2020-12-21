@@ -12,13 +12,13 @@ const Menu = () => {
 
       <div className=" flex flex-row ">
       <div className="flex-1 max-w-xs text-gray-300 m-10 font-bold " > 
-      <a href="."  >Projects</a>
+      <a href=""  >Projects</a>
       </div>
       <div className="flex-1 max-w-xs text-gray-300 m-10 font-bold " >
-        <a href="."  >About</a>
+        <a href=""  >About</a>
       </div>
       <div className="flex-1 max-w-xs text-gray-300 m-10 font-bold " >
-        <a href="."  >Contact</a>
+        <a href=""  >Contact</a>
       </div>
       </div>
 
