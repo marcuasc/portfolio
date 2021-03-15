@@ -11,7 +11,7 @@ const Menu = () => {
       </div>
 
       <div className=" flex flex-row ">
-      <div className="flex-1 max-w-xs text-gray-300 m-10 font-bold " > 
+      <div className="flex-1 max-w-xs text-gray-300 m-10 font-bold  " > 
       <a href="https://www.w3schools.com"  >Projects</a>
       </div>
       <div className="flex-1 max-w-xs text-gray-300 m-10 font-bold " >
