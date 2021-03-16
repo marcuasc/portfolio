@@ -1,6 +1,6 @@
 import React from "react";
 import "./index.css";
-import webdev from "/Users/marcus/Desktop/nettside/portfolio/portfolio/src/Data/webdev.png";
+import webdev from "../../Data/webdev.png";
 
 
 
