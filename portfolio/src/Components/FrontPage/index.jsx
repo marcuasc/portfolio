@@ -2,16 +2,20 @@ import React from "react";
 import "./index.css";
 import Menu from "../Menu/index"
 import Typewriter from "typewriter-effect";
-//import { motion } from "framer-motion"
+import Portrait from "../../Data/portrait.jpg";
+import { motion } from "framer-motion"
 
 
 
 
 const FrontPage = () => {
   return (
-  <div className="flex-row bg-blueGray min-h-screen w-screen block">
+  <div className="flex-row bg-whiteB min-h-screen w-screen block">
     <Menu></Menu>
-  <div className="w-3/5 h-40 bg-gray-300 m-auto mt-36 rounded-xl p-6 font-sans bg-opacity-30 text-4xl text-yellow-500" >
+
+    
+
+  <div className="w-3/5 h-40  m-20 mt-36 rounded-xl p-6 font-sans  text-4xl text-midnightG z-10 absolute" >
 
   <Typewriter
   onInit={(typewriter) => {
@@ -26,6 +30,15 @@ const FrontPage = () => {
   }}
 />
   </div>
+
+  
+    
+    <motion.img src={Portrait} alt="portrait" className=" w-2/6  top-1/4 left-1/2 absolute opacity-60"
+    initial={{opacity:0}}
+    animate={{opacity:0.6}}
+    transition={{delay:1.5 , duration:1.5}}/>
+    
+  
  
   </div>
     

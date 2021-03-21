@@ -7,6 +7,11 @@ module.exports = {
         middleGrey: "#8B8982",
         charcoal: "#373F47",
         blueGray:"#6C91C2",
+        whiteB:"#FFFFFA",
+        midnightG: "#084C61",
+        seaweed: "#177e89",
+        whiteC:"#D6FFF6",
+
       }
     },
   },
