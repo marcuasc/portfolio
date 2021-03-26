@@ -13,7 +13,9 @@ module.exports = {
         whiteC:"#D6FFF6",
       },
       fontFamily:{
-        title: ['Montserrat', 'sans-serif']
+        title: ['Montserrat', 'sans-serif'],
+        undertitle: ['Merriweather Sans', 'sans-serif'],
+        paragraph: ['Palanquin', 'sans-serif']
       }
     },
   },
