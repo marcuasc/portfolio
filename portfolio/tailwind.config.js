@@ -11,7 +11,9 @@ module.exports = {
         midnightG: "#084C61",
         seaweed: "#177e89",
         whiteC:"#D6FFF6",
-
+      },
+      fontFamily:{
+        title: ['Montserrat', 'sans-serif']
       }
     },
   },
