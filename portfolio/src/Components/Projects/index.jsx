@@ -17,6 +17,7 @@ const Projects = () => {
           title="Filmdatabase"
           description="I emnet IT2810 utviklet jeg og 2 andre studenter en filmdatabase basert på MERN-stacken."
           img={webdev}
+          link={"http://it2810.marcusas.no/"}
         />
         <ProjectComponent
           title="Smarthus"
@@ -27,11 +28,13 @@ const Projects = () => {
           title="Interaktiv galleri"
           description="Nullam commodo ipsum eu purus cursus egestas. Vivamus ipsum dui, malesuada sit amet urna id, imperdiet malesuada ante."
           img={webdev2}
+          link={"https://webdeb-2.netlify.app/"}
         />
         <ProjectComponent
           title="Fiktiv restaurant"
           description="Som en informatikkstudent som er overglad i teknologi, har jeg prøvd å digitalisere mye av det som kan i kollektivet mitt. Jeg bruker Home assistant som kjører på en Raspberry Pi."
           img={webtek}
+          link={"https://webteknologi.netlify.app/"}
         />
       </div>
     </>

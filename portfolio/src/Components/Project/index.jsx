@@ -25,7 +25,7 @@ const Project = (props) => {
           whileHover={{ scale: 1 }}
           whileTap={{ scale: 0.9 }}
           className="bg-blue-400 border-black  hover:bg-blue-700 text-white font-bold font-mo py-2 px-4 rounded-lg w-2/4 text-center"
-          href="https://vg.no"
+          href={props.link}
         >
           View Project
         </motion.a>
