@@ -21,13 +21,14 @@ const Project = (props) => {
         </div>
         <p className=" font-semibold mt-5 "> {props.description} </p>
         <br />
-        <motion.button
+        <motion.a
           whileHover={{ scale: 1 }}
           whileTap={{ scale: 0.9 }}
-          className="bg-blue-400 border-black  hover:bg-blue-700 text-white font-bold font-mo py-2 px-4 rounded-lg w-2/3 m"
+          className="bg-blue-400 border-black  hover:bg-blue-700 text-white font-bold font-mo py-2 px-4 rounded-lg w-2/4 text-center"
+          href="https://vg.no"
         >
           View Project
-        </motion.button>
+        </motion.a>
       </div>
       <div className="flex w-1/2 h-72 rounded-r-md ">
         <img
