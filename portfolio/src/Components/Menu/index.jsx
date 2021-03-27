@@ -1,6 +1,6 @@
 import React from "react";
 import "./index.css";
-import { motion } from "framer-motion";
+import MenuBtn from "../MenuButton/index";
 
 const Menu = () => {
   return (
@@ -15,33 +15,9 @@ const Menu = () => {
       </div>
 
       <div className=" flex flex-row ">
-        <div className="flex-1 max-w-xs  m-10 font-bold  border-b-2 border-whiteB  hover:border-midnightG_light ">
-          <motion.a
-            href="https://www.w3schools.com"
-            className=" pb-3 hover:opacity-75"
-            whileHover={{ scale: 3 }}
-            onHoverStart={(e) => {}}
-            onHoverEnd={(e) => {}}
-          >
-            Projects
-          </motion.a>
-        </div>
-        <div className="flex-1 max-w-xs  m-10 font-bold ">
-          <a
-            href="https://www.w3schools.com"
-            className=" pb-3 hover:opacity-75"
-          >
-            About
-          </a>
-        </div>
-        <div className="flex-1 max-w-xs  m-10 font-bold ">
-          <a
-            href="https://www.w3schools.com"
-            className=" pb-3 hover:opacity-75"
-          >
-            Contact
-          </a>
-        </div>
+        <MenuBtn title="Projects" link="https://www.nrk.no" />
+        <MenuBtn title="About" link="https://www.db.no" />
+        <MenuBtn title="Contact" link="https://www.vg.no" />
       </div>
     </div>
   );
