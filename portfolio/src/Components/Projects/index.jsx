@@ -1,6 +1,6 @@
 import React from "react";
 import "./index.css";
-import webdev from "../../Data/webdev.png";
+import webdev from "../../Data/webdev-min.png";
 import smartHome from "../../Data/Smart_home.png";
 import webtek from "../../Data/webteknologi.png";
 import webdev2 from "../../Data/webdev2.png";
