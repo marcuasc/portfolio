@@ -2,6 +2,8 @@ import React from "react";
 import "./index.css";
 import webdev from "../../Data/webdev.png";
 import smartHome from "../../Data/Smart_home.png";
+import webtek from "../../Data/webteknologi.png";
+import webdev2 from "../../Data/webdev2.png";
 import ProjectComponent from "../Project/index";
 
 const Projects = () => {
@@ -15,13 +17,22 @@ const Projects = () => {
           title="Filmdatabase"
           description="I emnet IT2810 utviklet jeg og 2 andre studenter en filmdatabase basert på MERN-stacken."
           img={webdev}
-          className=" bg-red-700"
         />
         <ProjectComponent
           title="Smarthus"
           description="Som en informatikkstudent som er overglad i teknologi, har jeg prøvd å digitalisere mye av det som kan i kollektivet mitt. Jeg bruker Home assistant som kjører på en Raspberry Pi."
           img={smartHome}
-        ></ProjectComponent>
+        />
+        <ProjectComponent
+          title="Interaktiv galleri"
+          description="Nullam commodo ipsum eu purus cursus egestas. Vivamus ipsum dui, malesuada sit amet urna id, imperdiet malesuada ante."
+          img={webdev2}
+        />
+        <ProjectComponent
+          title="Fiktiv restaurant"
+          description="Som en informatikkstudent som er overglad i teknologi, har jeg prøvd å digitalisere mye av det som kan i kollektivet mitt. Jeg bruker Home assistant som kjører på en Raspberry Pi."
+          img={webtek}
+        />
       </div>
     </>
   );

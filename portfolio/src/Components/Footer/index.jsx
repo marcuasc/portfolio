@@ -6,7 +6,7 @@ import { FaInstagramSquare } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <div className="flex flex-col max-w-screen-2xl w-screen bg-whiteB h-96 z-30">
+    <div className="flex flex-col max-w-screen-2xl w-screen bg-whiteB h-96 mt-10 z-30">
       <div className=" flex  h-1/2 w-1/2 m-auto justify-between ">
         <a href="https://github.com/marcuasc">
           <FaGithubSquare size={70} />
