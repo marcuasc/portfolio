@@ -2,13 +2,8 @@ import React from "react";
 import "./index.css";
 import { FaLinkedin } from "react-icons/fa";
 import { ImMail } from "react-icons/im";
-import { useViewportScroll } from "framer-motion";
-import { useTransform } from "framer-motion";
 
 const Footer = () => {
-  const { scrollYProgress } = useViewportScroll();
-  const yPosAnim = useTransform(scrollYProgress, [0, 1], [0, -384]);
-
   return (
     <div className="flex flex-col max-w-screen-2xl w-screen bg-whiteB h-96 mt-10 z-30">
       <h1 className="m-auto text-midnightG text-4xl font-bold font-undertitle mb-4 mt-20">
