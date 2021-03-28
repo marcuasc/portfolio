@@ -4,14 +4,18 @@ import Menu from "../Menu/index";
 import Typewriter from "typewriter-effect";
 import Portrait from "../../Data/portrait.jpg";
 import { motion } from "framer-motion";
+import ScrollDown from "../ScrollDown/index";
+import { FaGithubSquare } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
+import { FaInstagramSquare } from "react-icons/fa";
 
 const FrontPage = () => {
   return (
     <div className="flex-row bg-whiteB min-h-screen w-screen block">
       <Menu></Menu>
 
-      <div className="w-3/4 h-3/4  m-20 mt-20 ml-40  rounded-xl p-6 font-undertitle text-3xl text-midnightG  z-10 absolute">
-        <h1 className=" font-title text-5xl font-bold mb-3">
+      <div className="w-3/4 h-3/4  m-20 mt-10 ml-40  rounded-xl p-6 font-undertitle text-3xl text-midnightG  z-10 absolute">
+        <h1 className=" font-title text-5xl font-bold mb-5">
           Hei! Jeg er Marcus Schrøder
         </h1>
         <Typewriter
@@ -46,6 +50,20 @@ const FrontPage = () => {
           egestas. Vivamus ipsum dui, malesuada sit amet urna id, imperdiet
           malesuada ante.
         </p>
+
+        <div className=" flex  h-1/3 w-1/4  mt-8 justify-between">
+          <a href="https://github.com/marcuasc">
+            <FaGithubSquare size={45} />
+          </a>
+
+          <a href="https://www.linkedin.com/in/marcus-schr%C3%B8der/">
+            <FaLinkedin size={45} />
+          </a>
+
+          <a href="https://www.instagram.com/marcusscr/">
+            <FaInstagramSquare size={45} />
+          </a>
+        </div>
       </div>
 
       <motion.img
@@ -56,6 +74,8 @@ const FrontPage = () => {
         animate={{ opacity: 0.6 }}
         transition={{ delay: 1.5, duration: 1.5 }}
       />
+
+      <ScrollDown />
     </div>
   );
 };

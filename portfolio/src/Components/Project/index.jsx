@@ -13,13 +13,16 @@ const Project = (props) => {
       initial={{ opacity: 0, y: 30 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ delay: 0.5, duration: 0.5 }}
-      className=" flex flex-row w-3/5 h-72 rounded-lg m-auto mb-5 mt-32 shadow-2xl"
+      className=" flex flex-row w-3/5 h-72 rounded-lg m-auto mb-5 mt-28 shadow-2xl"
     >
       <div className=" flex flex-col w-1/2 h-72 rounded-l-lg border-indigo-100 p-8 bg-white">
-        <div className="uppercase tracking-wide text-2xl text-black ">
+        <div className="uppercase tracking-wide text-2xl text-black font-undertitle font-bold ">
           {props.title}
         </div>
-        <p className=" font-semibold mt-5 "> {props.description} </p>
+        <p className=" font-semibold mt-5 font-paragraph ">
+          {" "}
+          {props.description}{" "}
+        </p>
         <br />
         <motion.a
           whileHover={{ scale: 1 }}

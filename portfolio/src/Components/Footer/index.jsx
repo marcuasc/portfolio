@@ -1,23 +1,30 @@
 import React from "react";
 import "./index.css";
-import { FaGithubSquare } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
-import { FaInstagramSquare } from "react-icons/fa";
+import { ImMail } from "react-icons/im";
+import { useViewportScroll } from "framer-motion";
+import { useTransform } from "framer-motion";
 
 const Footer = () => {
+  const { scrollYProgress } = useViewportScroll();
+  const yPosAnim = useTransform(scrollYProgress, [0, 1], [0, -384]);
+
   return (
     <div className="flex flex-col max-w-screen-2xl w-screen bg-whiteB h-96 mt-10 z-30">
-      <div className=" flex  h-1/2 w-1/2 m-auto justify-between ">
-        <a href="https://github.com/marcuasc">
-          <FaGithubSquare size={70} />
-        </a>
-
+      <h1 className="m-auto text-midnightG text-4xl font-bold font-undertitle mb-4 mt-20">
+        Kontakt
+      </h1>
+      <p className=" m-auto font-bold  font-paragraph mb-10 ">
+        Vil du ta kontakt, er det bare å sende en melding på Linkedin eller
+        mailen som står under.
+      </p>
+      <div className=" flex  h-1/2 w-1/5 m-auto justify-between mb-96">
         <a href="https://www.linkedin.com/in/marcus-schr%C3%B8der/">
           <FaLinkedin size={70} />
         </a>
 
-        <a href="https://www.instagram.com/marcusscr/">
-          <FaInstagramSquare size={70} />
+        <a href="mailto:marcus.anton.schroder@gmail.com">
+          <ImMail size={70} />
         </a>
       </div>
     </div>
