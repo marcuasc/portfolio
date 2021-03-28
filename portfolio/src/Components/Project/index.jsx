@@ -27,7 +27,7 @@ const Project = (props) => {
         <motion.a
           whileHover={{ scale: 1 }}
           whileTap={{ scale: 0.9 }}
-          className="bg-blue-400 border-black  hover:bg-blue-700 text-white font-bold font-mo py-2 px-4 rounded-lg w-2/4 text-center"
+          className="bg-midnightG border-black opacity-100 hover:opacity-80 text-white font-bold font-mo py-2 px-4 rounded-lg w-2/4 text-center"
           href={props.link}
         >
           View Project

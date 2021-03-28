@@ -1,9 +1,9 @@
 import React from "react";
 import "./index.css";
-import webdev from "../../Data/webdev-min.png";
-import smartHome from "../../Data/Smart_home.png";
-import webtek from "../../Data/webteknologi.png";
-import webdev2 from "../../Data/webdev2.png";
+import webdev from "../../Data/png2jpg/webdev-min.jpg";
+import smartHome from "../../Data/png2jpg/Smart_home.jpg";
+import webtek from "../../Data/png2jpg/webteknologi.jpg";
+import webdev2 from "../../Data/png2jpg/webdev2.jpg";
 import ProjectComponent from "../Project/index";
 
 const Projects = () => {

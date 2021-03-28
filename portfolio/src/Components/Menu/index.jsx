@@ -1,13 +1,14 @@
 import React from "react";
 import "./index.css";
 import MenuBtn from "../MenuButton/index";
+import e from "../../Data/icons8-circled-m-100.png";
 
 const Menu = () => {
   return (
     <div className="flex flex-row max-w-screen-2xl w-screen justify-between text-midnightG">
       <div className="flex-1 h-12 max-w-sm ">
         <img
-          src="https://img.icons8.com/material/96/000000/circled-m.png"
+          src={e}
           href="http://localhost:3000/"
           alt="finner ikke bildet"
           className="ml-4"
