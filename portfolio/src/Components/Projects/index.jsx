@@ -6,6 +6,8 @@ import webtek from "../../Data/png2jpg/webteknologi.jpg";
 import webdev2 from "../../Data/png2jpg/webdev2.jpg";
 import ProjectComponent from "../Project/index";
 
+const display = { display: "none" };
+
 const Projects = () => {
   return (
     <>
@@ -18,24 +20,25 @@ const Projects = () => {
         </div>
         <ProjectComponent
           title="Filmdatabase"
-          description="I emnet IT2810 utviklet jeg og 2 andre studenter en filmdatabase basert på MERN-stacken."
+          description="I emnet IT2810 utviklet jeg og 2 andre studenter en filmdatabase laget med Typescript, MongoDB, Express, React og Node."
           img={webdev}
           link={"http://it2810.marcusas.no/"}
         />
         <ProjectComponent
           title="Smarthus"
-          description="Som en informatikkstudent som er overglad i teknologi, har jeg prøvd å digitalisere mye av det som kan i kollektivet mitt. Jeg bruker Home assistant som kjører på en Raspberry Pi."
+          description="Som en informatikkstudent som er overglad i teknologi, har jeg prøvd å digitalisere mye av det som kan bli digitalisert i kollektivet mitt. Jeg bruker Home assistant som kjører på en Raspberry Pi. Hittil styres alle ovner med hensyn til tempratur, vær og strømpris. Lamper, høytalere og chromecaster blir også brukt til automatisering. Pågående prosjekt!"
           img={smartHome}
+          style={display}
         />
         <ProjectComponent
           title="Interaktiv galleri"
-          description="Nullam commodo ipsum eu purus cursus egestas. Vivamus ipsum dui, malesuada sit amet urna id, imperdiet malesuada ante."
+          description="Interaktivt galleri laget med Typescript og React. Ved å endre på sliderne vil lyd, bilde, farger og dikt variere."
           img={webdev2}
           link={"https://webdeb-2.netlify.app/"}
         />
         <ProjectComponent
           title="Fiktiv restaurant"
-          description="Som en informatikkstudent som er overglad i teknologi, har jeg prøvd å digitalisere mye av det som kan i kollektivet mitt. Jeg bruker Home assistant som kjører på en Raspberry Pi."
+          description=" I emnet webteknologi utviklet jeg, og 5 andre studenter en nettside for en fiktiv restaurant. Nettsiden er laget med HTML5, CSS og Javascript."
           img={webtek}
           link={"https://webteknologi.netlify.app/"}
         />

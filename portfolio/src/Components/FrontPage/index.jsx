@@ -44,12 +44,12 @@ const FrontPage = () => {
 
         <p className=" text-lg w-2/4 mt-7 font-paragraph text-black ">
           Jeg er Marcus og er en student på tredjeåret av en bachelor i
-          informatikk.
+          informatikk på NTNU.
           <br /> <br />
-          På denne siden har jeg samlet både hobby- og skoleprosekter jeg har
-          jobbet med i løpet av studietiden. Gjennom diverse prosjekter har jeg
-          fått erfaring med blant annet Typescript, React, Javascipt, HTML5,
-          CSS, MongoDB, Express, Node, Java og Python.
+          På denne siden har jeg samlet hobby- og skoleprosekter jeg har jobbet
+          med i løpet av studietiden. Gjennom diverse prosjekter har jeg fått
+          erfaring med blant annet Typescript, React, Javascipt, HTML5, CSS,
+          MongoDB, Express, Node, Java og Python.
         </p>
 
         <div className=" flex  h-1/3 w-1/4  mt-8 justify-between">

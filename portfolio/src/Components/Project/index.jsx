@@ -29,8 +29,10 @@ const Project = (props) => {
           whileTap={{ scale: 0.9 }}
           className="bg-midnightG border-black opacity-100 hover:opacity-80 text-white font-bold font-mo py-2 px-4 rounded-lg w-2/4 text-center"
           href={props.link}
+          id="project_btn"
+          style={props.style}
         >
-          View Project
+          Se prosjektet
         </motion.a>
       </div>
       <div className="flex w-1/2 h-72 rounded-r-md ">
