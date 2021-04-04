@@ -6,7 +6,10 @@ import { ImMail } from "react-icons/im";
 const Footer = () => {
   return (
     <div className="flex flex-col max-w-screen-2xl w-screen bg-whiteB h-96 mt-10 z-30">
-      <h1 className="m-auto text-midnightG text-4xl font-bold font-undertitle mb-4 mt-20">
+      <h1
+        className="m-auto text-midnightG text-4xl font-bold font-undertitle mb-4 mt-20"
+        id="kontakt"
+      >
         Kontakt
       </h1>
       <p className=" m-auto font-bold  font-paragraph mb-10 ">

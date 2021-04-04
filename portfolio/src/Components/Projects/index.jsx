@@ -9,8 +9,11 @@ import ProjectComponent from "../Project/index";
 const Projects = () => {
   return (
     <>
-      <div className="flex-row bg-whiteB min-h-screen w-screen transform rotate-rq-8 block p-7">
-        <div className="flex flex-col w-1/5 h-8 m-auto mt-40 justify-center font-bold font-undertitle p-8 text-5xl rounded-md">
+      <div
+        className="flex-row bg-whiteB min-h-screen w-screen transform rotate-rq-8 block p-7"
+        id="projects"
+      >
+        <div className="flex flex-col w-1/5 h-8 m-auto mt-20 justify-center font-bold font-undertitle p-8 text-5xl rounded-md">
           <h1 className="m-auto text-midnightG">Prosjekter</h1>
         </div>
         <ProjectComponent

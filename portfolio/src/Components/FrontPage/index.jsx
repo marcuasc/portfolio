@@ -11,7 +11,10 @@ import { FaInstagramSquare } from "react-icons/fa";
 
 const FrontPage = () => {
   return (
-    <div className="flex-row bg-whiteB min-h-screen w-screen block">
+    <div
+      className="flex-row bg-whiteB min-h-screen w-screen block"
+      id="frontpage"
+    >
       <Menu></Menu>
 
       <div className="w-3/4 h-3/4  m-20 mt-10 ml-40  rounded-xl p-6 font-undertitle text-3xl text-midnightG  z-10 absolute">
@@ -40,15 +43,13 @@ const FrontPage = () => {
         />
 
         <p className=" text-lg w-2/4 mt-7 font-paragraph text-black ">
-          Sed eget orci vel ante auctor elementum. Pellentesque velit massa,
-          elementum non consequat vitae, facilisis eu metus. Vestibulum
-          ultricies quam quam, nec laoreet nunc condimentum eu. Pellentesque
-          gravida venenatis enim id ullamcorper.
+          Jeg er Marcus og er en student på tredjeåret av en bachelor i
+          informatikk.
           <br /> <br />
-          Ut quis sagittis mi, et auctor mauris. Nunc quis leo dapibus, euismod
-          risus bibendum, consequat ex. Nullam commodo ipsum eu purus cursus
-          egestas. Vivamus ipsum dui, malesuada sit amet urna id, imperdiet
-          malesuada ante.
+          På denne siden har jeg samlet både hobby- og skoleprosekter jeg har
+          jobbet med i løpet av studietiden. Gjennom diverse prosjekter har jeg
+          fått erfaring med blant annet Typescript, React, Javascipt, HTML5,
+          CSS, MongoDB, Express, Node, Java og Python.
         </p>
 
         <div className=" flex  h-1/3 w-1/4  mt-8 justify-between">

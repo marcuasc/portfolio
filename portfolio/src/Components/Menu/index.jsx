@@ -1,24 +1,21 @@
 import React from "react";
 import "./index.css";
 import MenuBtn from "../MenuButton/index";
-import e from "../../Data/icons8-circled-m-100.png";
+import e from "../../Data/Frame1.svg";
 
 const Menu = () => {
   return (
     <div className="flex flex-row max-w-screen-2xl w-screen justify-between text-midnightG">
-      <div className="flex-1 h-12 max-w-sm ">
-        <img
-          src={e}
-          href="http://localhost:3000/"
-          alt="finner ikke bildet"
-          className="ml-4"
-        />
+      <div className="flex-1 h-12 max-w-sm ml-32">
+        <a href="https://portfolio.marcusas.no/">
+          <img src={e} alt="finner ikke bildet" className="m-0 p-0 w-44 " />
+        </a>
       </div>
 
-      <div className=" flex flex-row ">
-        <MenuBtn title="Projects" link="https://www.nrk.no" />
-        <MenuBtn title="About" link="https://www.db.no" />
-        <MenuBtn title="Contact" link="https://www.vg.no" />
+      <div className=" flex flex-row mr-5 ">
+        <MenuBtn title="Hjem" link="/" />
+        <MenuBtn title="Prosekter" link="../Projects/index#projects" />
+        <MenuBtn title="Kontakt" link="../Footer/index#kontakt" />
       </div>
     </div>
   );
