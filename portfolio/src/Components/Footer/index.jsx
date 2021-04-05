@@ -1,7 +1,8 @@
 import React from "react";
 import "./index.css";
-import { FaLinkedin } from "react-icons/fa";
 import { ImMail } from "react-icons/im";
+import { FaLinkedinIn } from "react-icons/fa";
+import { FiMail } from "react-icons/fi";
 
 const Footer = () => {
   return (
@@ -18,11 +19,11 @@ const Footer = () => {
       </p>
       <div className=" flex  h-1/2 w-1/5 m-auto justify-between mb-96">
         <a href="https://www.linkedin.com/in/marcus-schr%C3%B8der/">
-          <FaLinkedin size={70} />
+          <FaLinkedinIn size={60} />
         </a>
 
         <a href="mailto:marcus.anton.schroder@gmail.com">
-          <ImMail size={70} />
+          <FiMail size={60} />
         </a>
       </div>
     </div>

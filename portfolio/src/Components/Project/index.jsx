@@ -1,6 +1,8 @@
 import React from "react";
 import "./index.css";
 import { motion } from "framer-motion";
+import { FaGithubSquare } from "react-icons/fa";
+import { FaExternalLinkAlt } from "react-icons/fa";
 
 /*const COLORS = {
     green: "text-white bg-green-400 hover:bg-green-500",
@@ -24,16 +26,22 @@ const Project = (props) => {
           {props.description}{" "}
         </p>
         <br />
-        <motion.a
-          whileHover={{ scale: 1 }}
-          whileTap={{ scale: 0.9 }}
-          className="bg-midnightG border-black opacity-100 hover:opacity-80 text-white font-bold font-mo py-2 px-4 rounded-lg w-2/4 text-center"
-          href={props.link}
-          id="project_btn"
-          style={props.style}
-        >
-          Se prosjektet
-        </motion.a>
+        <div className=" flex flex-row justify-between w-1/3">
+          <a
+            style={props.style}
+            href={props.link}
+            className="text-midnightG -top-0.5 relative"
+          >
+            <FaExternalLinkAlt size={45} />
+          </a>
+          <a
+            href={props.link2}
+            style={props.style}
+            className="text-midnightG ml-3"
+          >
+            <FaGithubSquare size={45} />
+          </a>
+        </div>
       </div>
       <div className="flex w-1/2 h-72 rounded-r-md ">
         <img
