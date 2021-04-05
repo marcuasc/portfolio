@@ -14,7 +14,7 @@ const Menu = () => {
 
       <div className=" flex flex-row mr-5 ">
         <MenuBtn title="Hjem" link="/" />
-        <MenuBtn title="Prosekter" link="../Projects/index#projects" />
+        <MenuBtn title="Prosjekter" link="../Projects/index#projects" />
         <MenuBtn title="Kontakt" link="../Footer/index#kontakt" />
       </div>
     </div>
