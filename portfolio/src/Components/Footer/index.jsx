@@ -1,6 +1,5 @@
 import React from "react";
 import "./index.css";
-import { ImMail } from "react-icons/im";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FiMail } from "react-icons/fi";
 
