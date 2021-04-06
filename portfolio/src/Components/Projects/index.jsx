@@ -5,6 +5,7 @@ import smartHome from "../../Data/smart_home2.png";
 import webtek from "../../Data/webtek.png";
 import webdev2 from "../../Data/webdev22.png";
 import ProjectComponent from "../Project/index";
+import mooncoins from "../../Data/mooncoins.png";
 
 const display = { display: "none" };
 
@@ -18,6 +19,14 @@ const Projects = () => {
         <div className="flex flex-col w-1/5 h-8 m-auto mt-20 justify-center font-bold font-undertitle p-8 text-5xl rounded-md">
           <h1 className="m-auto text-midnightG">Prosjekter</h1>
         </div>
+
+        <ProjectComponent
+          title="Cryptovaluta"
+          description="Som et hobbyprosjekt har jeg lagd en nettside der man kan legge inn diverse cryptovaluta og få en oversikt over alle prisene. Prisene blir hentet med cryptocompare.com sitt API. Nettsiden er bygd med MongoDB, Express, Vue og Node. "
+          img={mooncoins}
+          link2={"https://github.com/marcuasc/Webutvikling"}
+        />
+
         <ProjectComponent
           title="Filmdatabase"
           description="I emnet IT2810 utviklet jeg og 2 andre studenter en filmdatabase laget med Typescript, MongoDB, Express, React og Node."
