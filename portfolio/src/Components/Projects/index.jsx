@@ -24,7 +24,7 @@ const Projects = () => {
           title="Cryptovaluta"
           description="Som et hobbyprosjekt har jeg lagd en nettside der man kan legge inn diverse cryptovaluta og få en oversikt over alle prisene. Prisene blir hentet med cryptocompare.com sitt API. Nettsiden er bygd med MongoDB, Express, Vue og Node. "
           img={mooncoins}
-          link2={"https://github.com/marcuasc/Webutvikling"}
+          link2={"https://github.com/marcuasc/Vue-crypto"}
         />
 
         <ProjectComponent
