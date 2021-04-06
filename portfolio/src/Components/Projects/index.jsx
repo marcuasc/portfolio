@@ -1,9 +1,9 @@
 import React from "react";
 import "./index.css";
 import webdev from "../../Data/png2jpg/webdev-min.jpg";
-import smartHome from "../../Data/smart_home2.png";
-import webtek from "../../Data/webtek.png";
-import webdev2 from "../../Data/webdev22.png";
+import smartHome from "../../Data/smart_home2.jpeg";
+import webtek from "../../Data/webtek.jpeg";
+import webdev2 from "../../Data/webdev22.jpeg";
 import ProjectComponent from "../Project/index";
 import mooncoins from "../../Data/mooncoins.png";
 
