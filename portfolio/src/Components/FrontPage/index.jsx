@@ -51,7 +51,7 @@ const FrontPage = () => {
           erfaring med blant annet Typescript, React, Javascipt, HTML5, CSS,
           MongoDB, Express, Node, Java og Python.
           <br /> <br />
-          <b>Nettsiden er fortsatt under utvikling.</b>
+          <b>Nettsiden er under utvikling.</b>
         </p>
 
         <div className=" flex  h-1/3 w-1/4  mt-8 justify-between">
