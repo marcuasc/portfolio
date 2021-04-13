@@ -43,7 +43,7 @@ const Project = (props) => {
           </a>
         </div>
       </div>
-      <div className="flex w-1/2 h-72 rounded-r-md ">
+      <div className="flex w-1/2 h-72 rounded-r-md object-contain ">
         <img
           src={props.img}
           alt="Prosjekt-bilde"

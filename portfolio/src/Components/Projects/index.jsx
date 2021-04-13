@@ -5,7 +5,8 @@ import smartHome from "../../Data/smart_home2.jpeg";
 import webtek from "../../Data/webtek.jpeg";
 import webdev2 from "../../Data/webdev22.jpeg";
 import ProjectComponent from "../Project/index";
-import mooncoins from "../../Data/mooncoins.png";
+import mooncoins from "../../Data/mooncoins.jpeg";
+import portfolio from "../../Data/portfolio.jpeg";
 
 const display = { display: "none" };
 
@@ -25,6 +26,13 @@ const Projects = () => {
           description="Som et hobbyprosjekt har jeg lagd en nettside der man kan legge inn diverse cryptovaluta og få en oversikt over alle prisene. Prisene blir hentet med cryptocompare.com sitt API. Nettsiden er bygd med MongoDB, Express, Vue og Node. "
           img={mooncoins}
           link2={"https://github.com/marcuasc/Vue-crypto"}
+        />
+
+        <ProjectComponent
+          title="Portfolioside"
+          description="Som et hobbyprosjekt har jeg lagd denne portfoliosiden for å vise fram diverse prosjekter jeg har jobbet med. React, Framer motion, Typewriter.js og Tailwind CSS ble brukt til å utvikle nettsiden. "
+          img={portfolio}
+          link2={"https://github.com/marcuasc/portfolio"}
         />
 
         <ProjectComponent
