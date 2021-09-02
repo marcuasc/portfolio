@@ -43,13 +43,17 @@ const FrontPage = () => {
         />
 
         <p className=" text-lg w-2/4 mt-7 font-paragraph text-black ">
-          Jeg er Marcus og er en student på tredjeåret av en bachelor i
-          informatikk på NTNU.
+          Jeg er Marcus og går 4.klasse på en master i informatikk med
+          spesialisering innenfor programvaresystemer.
           <br /> <br />
-          På denne siden har jeg samlet hobby- og skoleprosekter jeg har jobbet
+          På denne siden har jeg samlet hobby- og skoleprosjekter jeg har jobbet
           med i løpet av studietiden. Gjennom diverse prosjekter har jeg fått
           erfaring med blant annet Typescript, React, Javascipt, HTML5, CSS,
           MongoDB, Express, Node, Java og Python.
+          <br /> <br />
+          Ved siden av studiet jobber jeg deltid som systemutvikler hos Opoint
+          Technologies med ansvar for utviklingen av et internt
+          feilsøkingsverktøy for Infomedia sitt supportteam.
           <br /> <br />
           <b>Nettsiden er under utvikling.</b>
         </p>
